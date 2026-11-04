@@ -11,7 +11,8 @@ load_dotenv()  # Load environment variables from .env file
 @tool
 def triple(num: float) -> float:
     """
-    param num: a number to triple
+    Triples the value of the input number.
+    param num: a number to triple the value
     return: the tripled value of the input number
     """
     return num * 3
